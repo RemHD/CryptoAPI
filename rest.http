@@ -22,9 +22,25 @@ Content-Type: application/json
 }
 
 ###
+
 GET http://localhost:3000/crypto/
 
+###
+
+POST http://localhost:3000/crypto/updateCMCData
+Content-Type: application/json
+
+{
+}
 
 ###
-POST http://localhost:3000/crypto/updateData
+
+GET http://localhost:3000/crypto/updateCGData
 Content-Type: application/json
+
+{
+}
+
+###
+
+GET https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=100&page=1&sparkline=false

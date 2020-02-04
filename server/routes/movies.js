@@ -1,7 +1,7 @@
-const Router = require('express').Router;
+const express = require('express');
+const router = express.Router();
 const Movie = require('../models/Movie');
 
-const router = Router();
 
 router.get('/', (req, res) => {
   Movie.find().then(data => res.json(data));

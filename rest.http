@@ -27,7 +27,7 @@ GET http://localhost:3000/crypto/
 
 ###
 
-POST http://localhost:3000/crypto/updateCMCData
+POST http://localhost:4000/crypto/updateCMCData
 Content-Type: application/json
 
 {
@@ -35,7 +35,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/crypto/updateCGData
+GET http://localhost:4000/crypto/updateCGData
 Content-Type: application/json
 
 {

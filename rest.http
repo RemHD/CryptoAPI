@@ -1,0 +1,30 @@
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "Title": "Bad Boys 3"
+}
+
+###
+GET http://localhost:3000/movies
+
+###
+GET http://localhost:3000/movies/ACADEMY DINOSAUR
+
+###
+DELETE http://localhost:3000/movies/ACADEMY DINOSAUR
+###
+PUT http://localhost:3000/movies/Bad Boys 3
+Content-Type: application/json
+
+{
+  "Title": "ACADEMY DINOSAUR"
+}
+
+###
+GET http://localhost:3000/crypto/
+
+
+###
+POST http://localhost:3000/crypto/updateData
+Content-Type: application/json
